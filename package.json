@@ -1,0 +1,39 @@
+{
+  "name": "@freelang/mariadb-driver",
+  "version": "1.0.0",
+  "description": "MariaDB/MySQL async driver for FreeLang - mysql2 replacement",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "freelang",
+    "mariadb",
+    "mysql",
+    "database",
+    "async",
+    "pool",
+    "driver",
+    "mysql2",
+    "query-builder"
+  ],
+  "author": "FreeLang Team",
+  "license": "MIT",
+  "dependencies": {
+    "mysql2": "^3.6.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.0.0"
+  },
+  "kpm": {
+    "category": "database",
+    "subcategory": "driver",
+    "tags": ["freelang", "mariadb", "mysql", "database", "async", "pool", "driver"],
+    "entry": "dist/index.js",
+    "version": "1.0.0"
+  }
+}
